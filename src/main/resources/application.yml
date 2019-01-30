@@ -1,0 +1,13 @@
+spring:
+  application:
+     name: zo-config-server
+  profiles:
+     active: native
+
+server:
+  port: 9999
+
+eureka:
+  instance:
+    hostname: localhost
+    
